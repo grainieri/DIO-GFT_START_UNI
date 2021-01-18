@@ -1,0 +1,13 @@
+C:\Users\USER\source\repos\DIODesafios\DIODesafios\obj\Debug\netcoreapp3.1\DIODesafios.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\DIODesafios\DIODesafios\obj\Debug\netcoreapp3.1\DIODesafios.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\DIODesafios\DIODesafios\obj\Debug\netcoreapp3.1\DIODesafios.AssemblyInfo.cs
+C:\Users\USER\source\repos\DIODesafios\DIODesafios\obj\Debug\netcoreapp3.1\DIODesafios.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\DIODesafios\DIODesafios\bin\Debug\netcoreapp3.1\DIODesafios.exe
+C:\Users\USER\source\repos\DIODesafios\DIODesafios\bin\Debug\netcoreapp3.1\DIODesafios.deps.json
+C:\Users\USER\source\repos\DIODesafios\DIODesafios\bin\Debug\netcoreapp3.1\DIODesafios.runtimeconfig.json
+C:\Users\USER\source\repos\DIODesafios\DIODesafios\bin\Debug\netcoreapp3.1\DIODesafios.runtimeconfig.dev.json
+C:\Users\USER\source\repos\DIODesafios\DIODesafios\bin\Debug\netcoreapp3.1\DIODesafios.dll
+C:\Users\USER\source\repos\DIODesafios\DIODesafios\bin\Debug\netcoreapp3.1\DIODesafios.pdb
+C:\Users\USER\source\repos\DIODesafios\DIODesafios\obj\Debug\netcoreapp3.1\DIODesafios.dll
+C:\Users\USER\source\repos\DIODesafios\DIODesafios\obj\Debug\netcoreapp3.1\DIODesafios.pdb
+C:\Users\USER\source\repos\DIODesafios\DIODesafios\obj\Debug\netcoreapp3.1\DIODesafios.genruntimeconfig.cache
