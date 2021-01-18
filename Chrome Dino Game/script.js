@@ -5,16 +5,18 @@ let nOfEvents = 0;
 let isJumping = false;
 let position = 0;
 let speedOfCactus = 5;
-let gameScore = 0;
+var gameScore = 0;
 
 
-function gameScoreCounter() {
-    setInterval(() => {
-        gameScore += 10;
-        gameScore.innerHTML = gameScore;
-    }, 10);
+setInterval(() => {
+    gameScore += 1;
     console.log(gameScore);
-}
+    if (gameScore % 100 === 0) {
+        speedOfCactus += 10;
+        console.log('speed cacto' + speedOfCactus);
+    }
+}, 100);
+
 
 function handleKeyDown(event){
     if (event.keyCode === 32) {
@@ -99,7 +101,7 @@ function createCactus () {
         } else if(cactusPosition > 0 && cactusPosition < 60 && position < 60) {
             //game over
             clearInterval(leftInverval);
-            document.body.innerHTML = '<h1 class="game-over">Fim de Jogo!</h1>'
+            document.body.innerHTML = '<img class="game-over" src="game-over.png"></img>'
         } else {
             cactusPosition -= 5;
             cactus.style.left = cactusPosition + 'px';
@@ -109,20 +111,6 @@ function createCactus () {
     setTimeout(createCactus, randomTime);
 }
 
-//make a ding and increase speed a little bit every 100th point
-//make animations that make the dino look like he is walking
-//make a score counter and make speed increase based on it
-//make the dino be able to crouch to avoid flying dinos
-//make a cool looking game over text and button
-//make it in the middle of the screen
-//make cactus appear more often
-//make it less in the left-edge
-//make beep sound when jump
-//save a highest score
-//change the spacebar behavior to press instead of release - OK
-//make height of the jump change according to how long the button was pressed - OK
-//change the spacebar behavior to detect when i'm holding and jump indefinitely based on that - OK
-
 createCactus();
+//gameScoreCounter();
 document.addEventListener('keydown', handleKeyDown);
-gameScoreCounter();
